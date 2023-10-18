@@ -1,3 +1,5 @@
 # Ignoring node modules shouldn't be pushed to production
 
 /node_modules
+
+/.env

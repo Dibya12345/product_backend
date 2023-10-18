@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "dev": "ts-node src/index.ts"
   },
   "keywords": [
     "product"
@@ -14,6 +14,14 @@
   "author": "Dibya Debayan Dash",
   "license": "ISC",
   "dependencies": {
+    "@prisma/client": "^5.4.2",
     "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.20",
+    "@types/node": "^20.8.6",
+    "prisma": "^5.4.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
   }
 }
